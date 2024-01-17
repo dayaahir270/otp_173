@@ -81,10 +81,7 @@ class _MyVerifyState extends State<MyVerify> {
               ),
               Pinput(
                 length: 6,
-                // defaultPinTheme: defaultPinTheme,
-                // focusedPinTheme: focusedPinTheme,
-                // submittedPinTheme: submittedPinTheme,
-
+                
                 showCursor: true,
                 onCompleted: (pin) => print(pin),
               ),
